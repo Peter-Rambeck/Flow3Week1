@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 
+// Not working
 // https://api.chucknorris.io/jokes/random
 
 export function UseEffectToFetch() {
@@ -24,6 +25,7 @@ export function UseEffectToFetch() {
   return <div>{list}</div>;
 }
 
+// Test
 /*
   useEffect(() => {
     fetch("https://randomuser.me/api")
@@ -34,7 +36,7 @@ export function UseEffectToFetch() {
   }, []);
 
    {list.map((e) => (
-        <p>{e.}</p>
+        <p>{e.first.name}</p>
       ))}
       
   */

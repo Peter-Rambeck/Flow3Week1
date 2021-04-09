@@ -1,16 +1,5 @@
 import React, { useState } from "react";
 
-/*
-export function MemberTable({ members }) {
-  return (
-    <table>
-      <thead></thead>
-      <tbody></tbody>
-    </table>
-  );
-}
-*/
-
 export function MemberTable({ members }) {
   return (
     <div>
