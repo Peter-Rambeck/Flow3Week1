@@ -8,8 +8,8 @@ export function MemberTable({ members }) {
           <th>Name</th>
           <th>Age</th>
         </tr>
-        {members.map((e) => (
-          <tr>
+        {members.map((e, id) => (
+          <tr key={id}>
             <td>{e.name}</td>
             <td>{e.age}</td>
           </tr>
@@ -19,10 +19,11 @@ export function MemberTable({ members }) {
   );
 }
 
-function MemberDemo(props) {
+function MemberDemo(members) {
   return (
     <div>
       <h4>All Members</h4>
+      <MemberTable members={members} />
     </div>
   );
 }

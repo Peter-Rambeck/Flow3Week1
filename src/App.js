@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
-import { MemberTable } from "./liveDemo";
+import { MemberTable } from "./listDemo";
 import { UseEffectToFetch } from "./fetchJokes";
 
 // 1.
